@@ -26,4 +26,4 @@ jobs:
 
     - name: Test with PyTest
       run: |
-        pytest --cov=inflammation.models tests/test_models.py
+        pytest tests/test_models.py  # --cov=inflammation.models
